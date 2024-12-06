@@ -1,0 +1,570 @@
+@font-face {
+    font-family: 'saysettha';
+    src: url('./asset/font/saysettha.ttc') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top-banner {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'saysettha', sans-serif;
+    font-size: 10px;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-text1 {
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    font-size: 10px;
+    color: black;
+}
+
+.hero-text2 span {
+    font-size: 15px;
+    color: red;
+    text-shadow:
+        0.5px 0.5px 0px rgb(255, 136, 0),
+        -0.5px 0.5px 0px rgb(255, 136, 0),
+        0.5px -0.5px 0px rgb(255, 136, 0),
+        -0.5px -0.5px 0px rgb(255, 136, 0);
+}
+
+.hero-text2 {
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero-text3 {
+    position: absolute;
+    top: 90px;
+    left: 10%;
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero-text3 span {
+    font-size: 18px;
+    color: red;
+    text-shadow:
+        0.5px 0.5px 0px rgb(255, 136, 0),
+        -0.5px 0.5px 0px rgb(255, 136, 0),
+        0.5px -0.5px 0px rgb(255, 136, 0),
+        -0.5px -0.5px 0px rgb(255, 136, 0);
+}
+
+.hero-text4 {
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    text-shadow:
+        2px 2px 0px black,
+        -2px 2px 0px black,
+        2px -2px 0px black,
+        -2px -2px 0px black;
+
+    rotate: -5deg;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-text5 {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size: 20px;
+    text-shadow:
+        2px 2px 0px black,
+        -2px 2px 0px black,
+        2px -2px 0px black,
+        -2px -2px 0px black;
+
+    rotate: -5deg;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.terms-container {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.terms-text {
+    background-color: #44546a;
+    flex: 1;
+    border-radius: 10px;
+    color: #70ad47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.whatsapp-container .whatsapp-title {
+    color: red;
+    text-shadow:
+        0.5px 0.5px 0px rgb(156, 156, 156),
+        -0.5px 0.5px 0px rgb(156, 156, 156),
+        0.5px -0.5px 0px rgb(156, 156, 156),
+        -0.5px -0.5px 0px rgb(156, 156, 156);
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-inline: 20px;
+}
+
+.whatsapp-container .whatsapp-subTitle {
+    color: black;
+    font-size: 15px;
+    padding-inline: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.apply-container {
+    background-color: #70ad47;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.apply-container .apply-form {
+    position: absolute;
+    right: 0px;
+    top: -30px;
+    background-color: #ed7d31;
+    border-radius: 100%;
+    padding: 10px 20px;
+}
+
+.apply-container .apply-form p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #5973b1;
+}
+
+.apply-container .apply-text1 {
+    color: #f8cbad;
+    font-size: 50px;
+    text-shadow:
+        0.5px 0.5px 0px red,
+        -0.5px 0.5px 0px red,
+        0.5px -0.5px 0px red,
+        -0.5px -0.5px 0px red;
+}
+
+.car-title-content {
+    position: relative;
+}
+
+.car-title-content img {
+    width: 100%;
+}
+
+.car-title-content p {
+    position: absolute;
+    font-size: 27px;
+    font-weight: 900;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.car-arrow-content {
+    display: flex;
+}
+
+.car-arrow-content>div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.car-arrow-title {
+    display: flex;
+    gap: 10px;
+}
+
+.car-arrow-title p {
+    flex: 1;
+    text-align: center;
+    background-color: #0000FF;
+    color: red;
+    text-shadow:
+        0.5px 0.5px 0px #FFFFFF,
+        -0.5px 0.5px 0px #FFFFFF,
+        0.5px -0.5px 0px #FFFFFF,
+        -0.5px -0.5px 0px #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.car-model-img {
+    width: 100%;
+}
+
+.car-model-intro {
+    background-color: #4472c4;
+    margin-top: 0px;
+    font-size: 19px;
+    padding: 5px 20px;
+}
+
+.car-model-subContent {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.car-model-subContent p {
+    background-color: #8faadc;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 19px;
+    padding: 7px 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.car-model-subContent img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.car-model-desc,
+.car-model-desc1 {
+    background-color: #4472c4;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.car-model-desc .car-model-desc-title {
+    font-size: 30px;
+    color: #f8cbad;
+    text-shadow:
+        0.5px 0.5px 0px #ed7d31,
+        -0.5px 0.5px 0px #ed7d31,
+        0.5px -0.5px 0px #ed7d31,
+        -0.5px -0.5px 0px #ed7d31;
+    position: relative;
+    z-index: 1000;
+    width: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.car-model-desc1 .car-model-desc-title {
+    font-size: 30px;
+    color: #f8cbad;
+    text-shadow:
+        0.5px 0.5px 0px #ed7d31,
+        -0.5px 0.5px 0px #ed7d31,
+        0.5px -0.5px 0px #ed7d31,
+        -0.5px -0.5px 0px #ed7d31;
+    position: relative;
+    z-index: 1000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.car-model-desc .car-model-desc-subTitle,
+.car-model-desc1 .car-model-desc-subTitle {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.car-model-desc>div {
+    display: flex;
+    align-items: start;
+    position: relative;
+}
+
+.car-model-desc>div>img {
+    position: absolute;
+    width: 30%;
+    right: 0px;
+}
+
+.car-model-desc>div>div {
+    position: absolute;
+    width: 30%;
+    top: -40px;
+    right: 0px;
+    rotate: 10deg;
+}
+
+.car-model-desc>div>div img {
+    width: 100%;
+}
+
+.car-model-desc>div .car-model-desc-img1 p {
+    color: red;
+    margin-top: -30px;
+    margin-left: 25px;
+}
+
+.car-model-desc>div .car-model-desc-img4 p {
+    color: red;
+    font-size: 14px;
+    margin-top: -60px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.car-model-desc1>div {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.car-model-desc1>div>div {
+    flex: 1;
+    position: relative;
+}
+
+.car-model-desc1>div>div img {
+    width: 100%;
+}
+
+.car-model-desc1>div>div p {
+    position: absolute;
+    top: 50px;
+    color: #FF0000;
+    text-shadow:
+        0.5px 0.5px 0px #FFFFFF,
+        -0.5px 0.5px 0px #FFFFFF,
+        0.5px -0.5px 0px #FFFFFF,
+        -0.5px -0.5px 0px #FFFFFF;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.discount-title {
+    background-color: #eb701d;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.discount-title .discount-text1 {
+    color: #ffe081;
+    font-size: 30px;
+    text-align: center;
+}
+
+.discount-title .discount-text2 {
+    color: black;
+    font-size: 27px;
+    font-weight: 800;
+    text-shadow:
+        0.5px 0.5px 0px #FFFFFF,
+        -0.5px 0.5px 0px #FFFFFF,
+        0.5px -0.5px 0px #FFFFFF,
+        -0.5px -0.5px 0px #FFFFFF;
+    text-align: center;
+}
+
+.discount-title .discount-text3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.discount-arrow-img {
+    width: 30%;
+    margin-left: 35%;
+}
+
+.discount-cars-main-title {
+    background-color: #4472c4;
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.discount-cars-item {
+    background-color: #4472c4;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.discount-cars-item>p {
+    color: #eb701d;
+    text-shadow:
+        0.5px 0.5px 0px #FFFFFF,
+        -0.5px 0.5px 0px #FFFFFF,
+        0.5px -0.5px 0px #FFFFFF,
+        -0.5px -0.5px 0px #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.discount-cars-item>div {
+    display: flex;
+    align-items: start;
+}
+
+.discount-cars-item>div p {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.discount-cars-item>div img {
+    width: 50%;
+}
+
+.faq-container {
+    padding-top: 100px;
+}
+
+.faq-container .faq-header {
+    background-color: #4472c4;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.faq-container .faq-header p {
+    color: white;
+    text-shadow:
+        2px 2px 0px #eb701d,
+        -2px 2px 0px #eb701d,
+        2px -2px 0px #eb701d,
+        -2px -2px 0px #eb701d;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.faq-container .faq-header img {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.faq-container .faq-question {
+    background-color: #adb9ca;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.faq-container .faq-answer {
+    background-color: #fbe5d6;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.reason-container .reason-header {
+    background-color: #ffff00;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-shadow:
+        0.5px 0.5px 0px #5b9bd5,
+        -0.5px 0.5px 0px #5b9bd5,
+        0.5px -0.5px 0px #5b9bd5,
+        -0.5px -0.5px 0px #5b9bd5;
+}
+
+.reason-container .reason-title {
+    color: rgb(146, 0, 0);
+    padding: 0px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.reason-container .reason-content {
+    color: black;
+    padding: 0px 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.content-for-apply {
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: #4472c4;
+    text-align: center;
+    padding: 5px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 100%;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.whatsapp-icon.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
