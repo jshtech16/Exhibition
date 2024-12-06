@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+html {
+    font-family: 'saysettha', sans-serif;
+}
+
 .top-banner {
     background-color: red;
     color: black;
@@ -15,7 +19,6 @@
     padding-bottom: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: 'saysettha', sans-serif;
     font-size: 10px;
 }
 
@@ -499,6 +502,21 @@
     font-weight: 800;
     font-size: 20px;
     border-radius: 20px;
+    position: relative;
+}
+
+.faq-container .faq-question .faq-question-img {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    width: 40px;
+}
+
+.faq-container .faq-answer .faq-answer-img {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    width: 40px;
 }
 
 .faq-container .faq-answer {
@@ -510,6 +528,7 @@
     font-weight: 800;
     font-size: 20px;
     border-radius: 20px;
+    position: relative;
 }
 
 .reason-container .reason-header {
