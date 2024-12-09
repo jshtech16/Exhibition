@@ -7,11 +7,14 @@
 
 html {
     font-family: 'saysettha', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
 .top-banner {
     background-color: red;
-    color: black;
+    color: rgb(251, 255, 0);
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -19,7 +22,8 @@ html {
     padding-bottom: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: 900;
 }
 
 .hero-container {
@@ -50,20 +54,20 @@ html {
 
 .hero-text2 {
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 5%;
-    color: red;
-    font-size: 30px;
-    font-weight: 700;
+    color: #FFFF00;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .hero-text3 {
     position: absolute;
-    top: 90px;
+    top: 85px;
     left: 10%;
-    color: red;
-    font-size: 30px;
-    font-weight: 700;
+    color: #FFFF00;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .hero-text3 span {
@@ -110,51 +114,75 @@ html {
 }
 
 .terms-container {
-    display: flex;
-    gap: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.terms-container .terms-bg-content {
+    background-image: linear-gradient(#3f9ed4, rgb(0, 255, 64));
+    width: 120%;
+    height: 80px;
+    position: absolute;
+    rotate: -5deg;
+    left: -10%;
+    top: -20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-inline: 50px;
+    justify-content: center;
 }
 
 .terms-text {
     background-color: #44546a;
     flex: 1;
     border-radius: 10px;
-    color: #70ad47;
+    color: #f5dc00;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 5px 10px;
+    position: relative;
+    max-width: 155px;
+}
+
+.whatsapp-container {
+    background-color: rgb(0, 255, 76);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-inline: 20px;
 }
 
 .whatsapp-container .whatsapp-title {
     color: red;
     text-shadow:
-        0.5px 0.5px 0px rgb(156, 156, 156),
-        -0.5px 0.5px 0px rgb(156, 156, 156),
-        0.5px -0.5px 0px rgb(156, 156, 156),
-        -0.5px -0.5px 0px rgb(156, 156, 156);
-    font-size: 22px;
+        0.5px 0.5px 0px rgb(34, 192, 13),
+        -0.5px 0.5px 0px rgb(1, 225, 255),
+        0.5px -0.5px 0px rgb(34, 192, 13),
+        -0.5px -0.5px 0px rgb(1, 225, 255);
+    font-size: 26px;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
-    padding-inline: 20px;
 }
 
 .whatsapp-container .whatsapp-subTitle {
     color: black;
     font-size: 15px;
-    padding-inline: 20px;
     margin-top: 10px;
     margin-bottom: 30px;
     text-align: center;
+    border: 5px solid #3f9ed4;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .apply-container {
-    background-color: #70ad47;
+    background-image: linear-gradient(#70ad47, #028286);
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -164,27 +192,40 @@ html {
 
 .apply-container .apply-form {
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: -30px;
-    background-color: #ed7d31;
+    background-color: #fdec01;
     border-radius: 100%;
     padding: 10px 20px;
+    rotate: -5deg;
 }
 
 .apply-container .apply-form p {
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #5973b1;
+    color: #dd0404;
+    font-weight: 700;
 }
 
 .apply-container .apply-text1 {
     color: #f8cbad;
     font-size: 50px;
     text-shadow:
-        0.5px 0.5px 0px red,
-        -0.5px 0.5px 0px red,
-        0.5px -0.5px 0px red,
-        -0.5px -0.5px 0px red;
+        1px 1px 0px red,
+        -1px 1px 0px red,
+        1px -1px 0px red,
+        -1px -1px 0px red;
+    font-weight: 900;
+}
+
+.apply-container .apply-text2 {
+    color: #f7f30b;
+}
+
+.car-model-container {
+    padding-inline: 20px;
+    background-image: linear-gradient(#028286, black);
+    padding-bottom: 20px;
 }
 
 .car-title-content {
@@ -225,12 +266,13 @@ html {
     background-color: #0000FF;
     color: red;
     text-shadow:
-        0.5px 0.5px 0px #FFFFFF,
+        0.5px 0.5px 0px #ffffff,
         -0.5px 0.5px 0px #FFFFFF,
         0.5px -0.5px 0px #FFFFFF,
         -0.5px -0.5px 0px #FFFFFF;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 18px;
 }
 
 .car-model-img {
@@ -239,9 +281,13 @@ html {
 
 .car-model-intro {
     background-color: #4472c4;
+    background-image: linear-gradient(to right, #4472c4, #4fc444);
     margin-top: 0px;
     font-size: 19px;
     padding: 5px 20px;
+    color: #eb701d;
+    margin-bottom: 0px;
+    font-weight: 800;
 }
 
 .car-model-subContent {
@@ -258,6 +304,7 @@ html {
     padding: 7px 20px;
     width: 80%;
     margin-left: 10%;
+    color: #ffffff;
 }
 
 .car-model-subContent img {
@@ -269,6 +316,7 @@ html {
 .car-model-desc,
 .car-model-desc1 {
     background-color: #4472c4;
+    background-image: linear-gradient(#44c0c4, #2b58a7);
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
@@ -310,6 +358,7 @@ html {
 .car-model-desc1 .car-model-desc-subTitle {
     font-size: 17px;
     padding-left: 20px;
+    color: white;
 }
 
 .car-model-desc>div {
@@ -368,7 +417,6 @@ html {
 
 .car-model-desc1>div>div p {
     position: absolute;
-    top: 50px;
     color: #FF0000;
     text-shadow:
         0.5px 0.5px 0px #FFFFFF,
@@ -378,11 +426,15 @@ html {
     font-size: 20px;
     width: 100%;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .discount-title {
     background-color: #eb701d;
-    margin-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 10px;
@@ -417,23 +469,26 @@ html {
     margin-left: 35%;
 }
 
+.discount-content {
+    background-image: linear-gradient(#028286, #70ad47);
+}
+
 .discount-cars-main-title {
     background-color: #4472c4;
+    background-image: linear-gradient(red, yellow);
     font-size: 23px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    color: black;
-    font-weight: 400;
-    margin-left: 20px;
-    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
     margin-top: 10px;
 }
 
 .discount-cars-item {
-    background-color: #4472c4;
+    background-image: linear-gradient(to right, #44c4b9, #4fc444);
     padding: 10px 20px;
     margin-top: 10px;
 }
@@ -451,7 +506,7 @@ html {
 
 .discount-cars-item>div {
     display: flex;
-    align-items: start;
+    align-items: center;
 }
 
 .discount-cars-item>div p {
@@ -531,23 +586,32 @@ html {
     position: relative;
 }
 
-.reason-container .reason-header {
+.reason-container {
     background-color: #ffff00;
-    font-size: 25px;
-    font-weight: 600;
+    background-image: linear-gradient(#70ad47, #00eeff, #70ad47);
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.reason-container .reason-header {
+    font-size: 45px;
+    font-weight: 900;
     padding: 10px 20px;
     margin-top: 25px;
-    margin-bottom: 15px;
     text-shadow:
-        0.5px 0.5px 0px #5b9bd5,
-        -0.5px 0.5px 0px #5b9bd5,
-        0.5px -0.5px 0px #5b9bd5,
-        -0.5px -0.5px 0px #5b9bd5;
+        3px 3px 0px #000000,
+        -3px 3px 0px #000000,
+        3px -3px 0px #000000,
+        -3px -3px 0px #000000;
+    text-align: center;
+    color: #FFFF00;
+    rotate: -5deg;
 }
 
 .reason-container .reason-title {
-    color: rgb(146, 0, 0);
-    padding: 0px 20px;
+    color: rgb(255, 0, 0);
+    padding: 15px 20px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 17px;
@@ -555,7 +619,7 @@ html {
 }
 
 .reason-container .reason-content {
-    color: black;
+    color: rgb(22, 77, 0);
     padding: 0px 20px;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -568,7 +632,8 @@ html {
 }
 
 .footer {
-    background-color: #4472c4;
+    background-color: #028286;
+    color: white;
     text-align: center;
     padding: 5px 20px;
     margin-top: 0px;
@@ -577,13 +642,14 @@ html {
 
 .whatsapp-icon {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 130px;
+    right: 80px;
     border-radius: 100%;
     transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 9999;
 }
 
-.whatsapp-icon.hidden {
+#whatsapp-icon.hidden {
     opacity: 0;
     visibility: hidden;
 }
